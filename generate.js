@@ -10,6 +10,7 @@ const {
 } = require("./js/championNames");
 
 const champArrays = [oneCost, twoCost, threeCost, fourCost, fiveCost];
+const traits = [...classes, ...origins];
 let champions = [];
 
 for (let [index, array] of champArrays.entries()) {
@@ -47,3 +48,4 @@ function generateJson(fileName, data) {
 generateJson("./data/origins.json", origins);
 generateJson("./data/classes.json", classes);
 generateJson("./data/champions.json", champions);
+generateJson("./data/traits.json", traits);
