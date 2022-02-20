@@ -73,7 +73,7 @@ const classes = [
     champions: [
       "Chogath",
       "Illaoi",
-      "Reksai",
+      "RekSai",
       "Sejuani",
       "Tahm Kench",
       "Vi",
@@ -221,7 +221,7 @@ const classes = [
   },
   {
     name: "Striker",
-    champions: ["Gnar", "Irelia", "Jhin", "Jarvan IV", "Reksai", "Sivir"],
+    champions: ["Gnar", "Irelia", "Jhin", "Jarvan IV", "RekSai", "Sivir"],
     bonus: "Strikers gain bonus Attack Damage.",
     set: [
       {

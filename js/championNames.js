@@ -16,7 +16,7 @@ const oneCost = [
 
 const twoCost = [
   "Ashe",
-  "Blitz",
+  "Blitzcrank",
   "Corki",
   "Lulu",
   "Quinn",

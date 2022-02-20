@@ -83,7 +83,12 @@
     "origins": ["Syndicate"],
     "classes": ["Sniper"]
   },
-  { "name": "Blitz", "cost": 2, "origins": [], "classes": [] },
+  {
+    "name": "Blitzcrank",
+    "cost": 2,
+    "origins": ["Scrap"],
+    "classes": ["Bodyguard"]
+  },
   {
     "name": "Corki",
     "cost": 2,
@@ -102,7 +107,12 @@
     "origins": ["Mercenary"],
     "classes": ["Challenger"]
   },
-  { "name": "RekSai", "cost": 2, "origins": [], "classes": [] },
+  {
+    "name": "RekSai",
+    "cost": 2,
+    "origins": ["Mutant"],
+    "classes": ["Bruiser", "Striker"]
+  },
   {
     "name": "Sejuani",
     "cost": 2,

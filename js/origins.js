@@ -164,7 +164,7 @@ module.exports = origins = [
   },
   {
     name: "Mutant",
-    champions: ["Chogath", "Kaisa", "Kassadin", "Khazix", "Malzahar", "Reksai"],
+    champions: ["Chogath", "Kaisa", "Kassadin", "Khazix", "Malzahar", "RekSai"],
     bonus: `Mutants gain unique bonuses. These are different each game.
 
     Cybernetic Enhancement grants bonus stats to Mutants with at least 1 item.
