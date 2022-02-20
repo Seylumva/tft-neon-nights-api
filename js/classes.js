@@ -1,4 +1,4 @@
-const classes = [
+module.exports = classes = [
   {
     name: "Arcanist",
     champions: ["Ahri", "Brand", "Malzahar", "Swain", "Vex", "Viktor", "Ziggs"],
@@ -274,5 +274,3 @@ const classes = [
     ],
   },
 ];
-
-module.exports = classes;

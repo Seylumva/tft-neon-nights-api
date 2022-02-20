@@ -7,7 +7,7 @@ Data for Teamfight Tactics Set 6.5
 - [x] Add champion data.
 - [x] Add origin data.
 - [x] Add class data.
-- [ ] Add weapon data.
+- [x] Add weapon data.
 - [x] Add icons.
 - [ ] Build web service to serve data and assets.
 

@@ -1,6 +1,7 @@
 const fs = require("fs");
 const classes = require("./js/classes");
 const origins = require("./js/origins");
+const items = require("./js/items");
 const {
   oneCost,
   twoCost,
@@ -49,4 +50,5 @@ function generateJson(fileName, data) {
 generateJson("./data/champions.json", champions);
 generateJson("./data/origins.json", origins);
 generateJson("./data/classes.json", classes);
+generateJson("./data/items.json", items);
 generateJson("./data/traits.json", traits);
