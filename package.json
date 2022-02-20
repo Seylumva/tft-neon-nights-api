@@ -1,0 +1,26 @@
+{
+  "name": "tft-neon-nights-api",
+  "version": "1.0.0",
+  "description": "Data for Teamfight Tactics Set 6.5",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seylumva/tft-neon-nights-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seylumva/tft-neon-nights-api/issues"
+  },
+  "homepage": "https://github.com/Seylumva/tft-neon-nights-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
