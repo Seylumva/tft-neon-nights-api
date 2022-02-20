@@ -1,0 +1,278 @@
+const classes = [
+  {
+    name: "Arcanist",
+    champions: ["Ahri", "Brand", "Malzahar", "Swain", "Vex", "Viktor", "Ziggs"],
+    bonus: "Arcanists increase the Ability Power of your team.",
+    set: [
+      {
+        count: 2,
+        bonus: "Your team gains 20% Ability Power",
+      },
+      {
+        count: 4,
+        bonus:
+          "Your team gains 20% Ability Power, Arcanists gain an additional 40%",
+      },
+      {
+        count: 6,
+        bonus:
+          "Your team gains 50% Ability Power, Arcanists gain an additional 50%",
+      },
+      {
+        count: 8,
+        bonus: "Your team gains 145% Ability Power",
+      },
+    ],
+  },
+  {
+    name: "Assassin",
+    champions: ["Ekko", "Khazix", "Nocturne", "Talon", "Twitch"],
+    bonus:
+      "Assassins' Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+    set: [
+      {
+        count: 2,
+        bonus: "10% Crit Chance & 20% Crit Damage",
+      },
+      {
+        count: 4,
+        bonus: "30% Crit Chance & 40% Crit Damage",
+      },
+      {
+        count: 6,
+        bonus: "50% Crit Chance & 60% Crit Damage",
+      },
+    ],
+  },
+  {
+    name: "Bodyguard",
+    champions: ["Blitzcrank", "Braum", "Darius", "Galio", "Leona", "Poppy"],
+    bonus:
+      "Bodyguards have increased Armor. Shortly after combat begins, Bodyguards gain a shield and taunt adjacent enemies, forcing them to attack the Bodyguard.",
+    set: [
+      {
+        count: 2,
+        bonus: "80 Armor, 150 shield",
+      },
+      {
+        count: 4,
+        bonus: "160 Armor, 350 shield",
+      },
+      {
+        count: 6,
+        bonus: "250 Armor, 700 shield",
+      },
+      {
+        count: 8,
+        bonus: "450 Armor, 1200 shield",
+      },
+    ],
+  },
+  {
+    name: "Bruiser",
+    champions: [
+      "Chogath",
+      "Illaoi",
+      "Reksai",
+      "Sejuani",
+      "Tahm Kench",
+      "Vi",
+      "Zac",
+    ],
+    bonus:
+      "Your team gains bonus maximum Health. Bruisers gain double the bonus.",
+    set: [
+      {
+        count: 2,
+        bonus: "125 Health",
+      },
+      {
+        count: 4,
+        bonus: "225 Health",
+      },
+      {
+        count: 6,
+        bonus: "450 Health",
+      },
+      {
+        count: 8,
+        bonus: "800 Health",
+      },
+    ],
+  },
+  {
+    name: "Challenger",
+    champions: ["Camille", "Draven", "Kaisa", "Quinn", "Tryndamere", "Warwick"],
+    bonus:
+      "Challengers get bonus Attack Speed. Upon scoring a takedown, Challengers dash to a new target and double this bonus for 2.5 seconds.",
+    set: [
+      {
+        count: 2,
+        bonus: "25% Attack Speed",
+      },
+      {
+        count: 4,
+        bonus: "55% Attack Speed",
+      },
+      {
+        count: 6,
+        bonus: "90% Attack Speed",
+      },
+      {
+        count: 8,
+        bonus: "150% Attack Speed",
+      },
+    ],
+  },
+  {
+    name: "Colossus",
+    champions: ["Alistar", "Chogath", "Galio"],
+    bonus:
+      "Innate: Colossi are bigger, more powerful, and immune to crowd control effects. However, each Colossus requires 2 team slots.",
+    set: [
+      {
+        count: 2,
+        bonus: "Colossus champions take 25% less damage.",
+      },
+    ],
+  },
+  {
+    name: "Enchanter",
+    champions: ["Lulu", "Morgana", "Orianna", "Senna"],
+    bonus:
+      "Your team has bonus Magic Resist. Enchanters gain bonus healing and shielding.",
+    set: [
+      {
+        count: 2,
+        bonus: "+20 Magic Resist, 25% healing and shielding",
+      },
+      {
+        count: 4,
+        bonus: "+35 Magic Resist, 40% healing and shielding",
+      },
+      {
+        count: 6,
+        bonus: "+50 Magic Resist, 60% healing and shielding",
+      },
+      {
+        count: 8,
+        bonus: "+75 Magic Resist, 100% healing and shielding",
+      },
+    ],
+  },
+  {
+    name: "Innovator",
+    champions: ["Ekko", "Ezreal", "Jayce", "Seraphine", "Singed", "Zilean"],
+    bonus:
+      "Innovators build a mechanical companion to join the battle. The companion receives bonus Health and Attack Damage based on allied Innovators' star levels.",
+    set: [
+      {
+        count: 3,
+        bonus: "Mechanical Scarab",
+      },
+      {
+        count: 5,
+        bonus: "Mechanical Bear",
+      },
+      {
+        count: 7,
+        bonus: "Mechanical Dragon",
+      },
+    ],
+  },
+  {
+    name: "Scholar",
+    champions: ["Kassadin", "Renata Glasc", "Silco", "Syndra", "Zyra"],
+    bonus: "Your team gains Mana every 2 seconds.",
+    set: [
+      {
+        count: 2,
+        bonus: "5 Mana",
+      },
+      {
+        count: 4,
+        bonus: "10 Mana",
+      },
+      {
+        count: 6,
+        bonus: "20 Mana",
+      },
+    ],
+  },
+  {
+    name: "Sniper",
+    champions: ["Ashe", "Caitlyn", "Jhin", "Miss Fortune", "Zeri"],
+    bonus:
+      "Snipers deal bonus damage for each hex between themselves and their target.",
+    set: [
+      {
+        count: 2,
+        bonus: "8% bonus damage",
+      },
+      {
+        count: 4,
+        bonus: "16% bonus damage",
+      },
+      {
+        count: 6,
+        bonus: "30% bonus damage",
+      },
+    ],
+  },
+  {
+    name: "Striker",
+    champions: ["Gnar", "Irelia", "Jhin", "Jarvan IV", "Reksai", "Sivir"],
+    bonus: "Strikers gain bonus Attack Damage.",
+    set: [
+      {
+        count: 2,
+        bonus: "+30 Attack Damage",
+      },
+      {
+        count: 4,
+        bonus: "+65 Attack Damage",
+      },
+      {
+        count: 6,
+        bonus: "+110 Attack Damage",
+      },
+    ],
+  },
+  {
+    name: "Transformer",
+    champions: ["Jayce"],
+    set: [
+      {
+        count: 1,
+        bonus:
+          "Jayce adopts melee form when placed in the front 2 rows, and ranged form in the back 2 rows.",
+      },
+    ],
+  },
+  {
+    name: "Twinshot",
+    champions: ["Corki", "Gangplank", "Jinx", "Lucian"],
+    bonus:
+      "Twinshots gain bonus Attack Damage. When a Twinshot attacks, they have a chance to attack twice instead.",
+    set: [
+      {
+        count: 2,
+        bonus: "10 Attack Damage, 40% chance",
+      },
+      {
+        count: 3,
+        bonus: "25 Attack Damage, 55% chance",
+      },
+      {
+        count: 4,
+        bonus: "40 Attack Damage, 70% chance",
+      },
+      {
+        count: 5,
+        bonus: "60 Attack Damage, 100% chance",
+      },
+    ],
+  },
+];
+
+module.exports = classes;

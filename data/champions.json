@@ -1,0 +1,327 @@
+[
+  {
+    "name": "Brand",
+    "cost": 1,
+    "origins": ["Debonair"],
+    "classes": ["Arcanist"]
+  },
+  {
+    "name": "Caitlyn",
+    "cost": 1,
+    "origins": ["Enforcer"],
+    "classes": ["Sniper"]
+  },
+  {
+    "name": "Camille",
+    "cost": 1,
+    "origins": ["Clockwork"],
+    "classes": ["Challenger"]
+  },
+  {
+    "name": "Darius",
+    "cost": 1,
+    "origins": ["Syndicate"],
+    "classes": ["Bodyguard"]
+  },
+  {
+    "name": "Ezreal",
+    "cost": 1,
+    "origins": ["Scrap"],
+    "classes": ["Innovator"]
+  },
+  {
+    "name": "Illaoi",
+    "cost": 1,
+    "origins": ["Mercenary"],
+    "classes": ["Bruiser"]
+  },
+  {
+    "name": "Jarvan IV",
+    "cost": 1,
+    "origins": ["Hextech"],
+    "classes": ["Striker"]
+  },
+  {
+    "name": "Kassadin",
+    "cost": 1,
+    "origins": ["Mutant"],
+    "classes": ["Scholar"]
+  },
+  {
+    "name": "Nocturne",
+    "cost": 1,
+    "origins": ["Hextech"],
+    "classes": ["Assassin"]
+  },
+  {
+    "name": "Poppy",
+    "cost": 1,
+    "origins": ["Yordle"],
+    "classes": ["Bodyguard"]
+  },
+  {
+    "name": "Singed",
+    "cost": 1,
+    "origins": ["Chemtech"],
+    "classes": ["Innovator"]
+  },
+  {
+    "name": "Twitch",
+    "cost": 1,
+    "origins": ["Chemtech"],
+    "classes": ["Assassin"]
+  },
+  {
+    "name": "Ziggs",
+    "cost": 1,
+    "origins": ["Scrap", "Yordle"],
+    "classes": ["Arcanist"]
+  },
+  {
+    "name": "Ashe",
+    "cost": 2,
+    "origins": ["Syndicate"],
+    "classes": ["Sniper"]
+  },
+  { "name": "Blitz", "cost": 2, "origins": [], "classes": [] },
+  {
+    "name": "Corki",
+    "cost": 2,
+    "origins": ["Yordle"],
+    "classes": ["Twinshot"]
+  },
+  {
+    "name": "Lulu",
+    "cost": 2,
+    "origins": ["Yordle"],
+    "classes": ["Enchanter"]
+  },
+  {
+    "name": "Quinn",
+    "cost": 2,
+    "origins": ["Mercenary"],
+    "classes": ["Challenger"]
+  },
+  { "name": "RekSai", "cost": 2, "origins": [], "classes": [] },
+  {
+    "name": "Sejuani",
+    "cost": 2,
+    "origins": ["Enforcer", "Hextech"],
+    "classes": ["Bruiser"]
+  },
+  {
+    "name": "Swain",
+    "cost": 2,
+    "origins": ["Hextech"],
+    "classes": ["Arcanist"]
+  },
+  {
+    "name": "Syndra",
+    "cost": 2,
+    "origins": ["Debonair"],
+    "classes": ["Scholar"]
+  },
+  {
+    "name": "Talon",
+    "cost": 2,
+    "origins": ["Debonair"],
+    "classes": ["Assassin"]
+  },
+  {
+    "name": "Warwick",
+    "cost": 2,
+    "origins": ["Chemtech"],
+    "classes": ["Challenger"]
+  },
+  {
+    "name": "Zilean",
+    "cost": 2,
+    "origins": ["Clockwork"],
+    "classes": ["Innovator"]
+  },
+  {
+    "name": "Zyra",
+    "cost": 2,
+    "origins": ["Syndicate"],
+    "classes": ["Scholar"]
+  },
+  {
+    "name": "Chogath",
+    "cost": 3,
+    "origins": ["Mutant"],
+    "classes": ["Bruiser", "Colossus"]
+  },
+  {
+    "name": "Ekko",
+    "cost": 3,
+    "origins": ["Scrap"],
+    "classes": ["Assassin", "Innovator"]
+  },
+  {
+    "name": "Gangplank",
+    "cost": 3,
+    "origins": ["Mercenary"],
+    "classes": ["Twinshot"]
+  },
+  {
+    "name": "Gnar",
+    "cost": 3,
+    "origins": ["Socialite", "Yordle"],
+    "classes": ["Striker"]
+  },
+  {
+    "name": "Leona",
+    "cost": 3,
+    "origins": ["Debonair"],
+    "classes": ["Bodyguard"]
+  },
+  {
+    "name": "Lucian",
+    "cost": 3,
+    "origins": ["Hextech"],
+    "classes": ["Twinshot"]
+  },
+  {
+    "name": "Malzahar",
+    "cost": 3,
+    "origins": ["Mutant"],
+    "classes": ["Arcanist"]
+  },
+  {
+    "name": "Miss Fortune",
+    "cost": 3,
+    "origins": ["Mercenary"],
+    "classes": ["Sniper"]
+  },
+  {
+    "name": "Morgana",
+    "cost": 3,
+    "origins": ["Syndicate"],
+    "classes": ["Enchanter"]
+  },
+  {
+    "name": "Senna",
+    "cost": 3,
+    "origins": ["Socialite"],
+    "classes": ["Enchanter"]
+  },
+  {
+    "name": "Tryndamere",
+    "cost": 3,
+    "origins": ["Chemtech"],
+    "classes": ["Challenger"]
+  },
+  { "name": "Vex", "cost": 3, "origins": ["Yordle"], "classes": ["Arcanist"] },
+  { "name": "Zac", "cost": 3, "origins": ["Chemtech"], "classes": ["Bruiser"] },
+  {
+    "name": "Ahri",
+    "cost": 4,
+    "origins": ["Syndicate"],
+    "classes": ["Arcanist"]
+  },
+  {
+    "name": "Alistar",
+    "cost": 4,
+    "origins": ["Hextech"],
+    "classes": ["Colossus"]
+  },
+  {
+    "name": "Braum",
+    "cost": 4,
+    "origins": ["Syndicate"],
+    "classes": ["Bodyguard"]
+  },
+  {
+    "name": "Draven",
+    "cost": 4,
+    "origins": ["Debonair"],
+    "classes": ["Challenger"]
+  },
+  { "name": "Irelia", "cost": 4, "origins": ["Scrap"], "classes": ["Striker"] },
+  {
+    "name": "Jhin",
+    "cost": 4,
+    "origins": ["Clockwork"],
+    "classes": ["Sniper", "Striker"]
+  },
+  {
+    "name": "Khazix",
+    "cost": 4,
+    "origins": ["Mutant"],
+    "classes": ["Assassin"]
+  },
+  {
+    "name": "Orianna",
+    "cost": 4,
+    "origins": ["Clockwork"],
+    "classes": ["Enchanter"]
+  },
+  {
+    "name": "Renata Glasc",
+    "cost": 4,
+    "origins": ["Chemtech"],
+    "classes": ["Scholar"]
+  },
+  {
+    "name": "Seraphine",
+    "cost": 4,
+    "origins": ["Socialite"],
+    "classes": ["Innovator"]
+  },
+  {
+    "name": "Sivir",
+    "cost": 4,
+    "origins": ["Hextech"],
+    "classes": ["Striker"]
+  },
+  {
+    "name": "Vi",
+    "cost": 4,
+    "origins": ["Enforcer", "Rival"],
+    "classes": ["Bruiser"]
+  },
+  {
+    "name": "Galio",
+    "cost": 5,
+    "origins": ["Socialite"],
+    "classes": ["Bodyguard", "Colossus"]
+  },
+  {
+    "name": "Jayce",
+    "cost": 5,
+    "origins": ["Enforcer"],
+    "classes": ["Innovator", "Transformer"]
+  },
+  {
+    "name": "Jinx",
+    "cost": 5,
+    "origins": ["Rival", "Scrap"],
+    "classes": ["Twinshot"]
+  },
+  {
+    "name": "Kaisa",
+    "cost": 5,
+    "origins": ["Mutant"],
+    "classes": ["Challenger"]
+  },
+  {
+    "name": "Silco",
+    "cost": 5,
+    "origins": ["Mastermind"],
+    "classes": ["Scholar"]
+  },
+  {
+    "name": "Tahm Kench",
+    "cost": 5,
+    "origins": ["Glutton", "Mercenary"],
+    "classes": ["Bruiser"]
+  },
+  { "name": "Veigar", "cost": 5, "origins": ["Yordle-Lord"], "classes": [] },
+  {
+    "name": "Viktor",
+    "cost": 5,
+    "origins": ["Chemtech"],
+    "classes": ["Arcanist"]
+  },
+  { "name": "Zeri", "cost": 5, "origins": ["Debonair"], "classes": ["Sniper"] }
+]
