@@ -246,7 +246,7 @@
     "set": [
       {
         "count": 1,
-        "bonus": "At the start of combat, the Mastermind grants the 2 allies directly in front of him 40 of their starting Mana."
+        "bonus": "At the start of combat, the Mastermind grants the 2 allies directly in front of him 40 Mana (this effect does not stack)."
       }
     ]
   },

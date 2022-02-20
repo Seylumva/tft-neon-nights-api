@@ -32,6 +32,7 @@ for (let [index, array] of champArrays.entries()) {
       cost: index + 1,
       origins: unitOrigins,
       classes: unitClasses,
+      icon: `/${unit.split(" ").join("_")}.jpg`,
     });
   }
 }
@@ -45,7 +46,7 @@ function generateJson(fileName, data) {
   });
 }
 
+generateJson("./data/champions.json", champions);
 generateJson("./data/origins.json", origins);
 generateJson("./data/classes.json", classes);
-generateJson("./data/champions.json", champions);
 generateJson("./data/traits.json", traits);
