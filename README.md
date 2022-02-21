@@ -37,4 +37,4 @@ Heroku Base URL: `http://tft.nemil.io/`
 | /api/classes   | Get all class data                   |                           |
 | /api/origins   | Get all origin data                  |                           |
 | /api/items     | Get all item data                    |                           |
-| /api/traits    | Get all trait data                   |                           |
+| /api/traits    | Get all trait (origin + trait) data  |                           |
