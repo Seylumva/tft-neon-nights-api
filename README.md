@@ -10,8 +10,8 @@ Data for Teamfight Tactics Set 6.5
 - [x] Add weapon data.
 - [x] Add icons.
 - [x] Build web service to serve data and assets.
+- [x] Serve icons in the backend.
 - [ ] Add queries to other routes.
-- [ ] Serve icons in the backend.
 
 Hopefully it helps someone looking for this until Riot updates their TFT data from Set 5
 
