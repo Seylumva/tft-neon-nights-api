@@ -7,7 +7,7 @@ Data for Teamfight Tactics Set 6.5
 - [x] Add champion data.
 - [x] Add origin data.
 - [x] Add class data.
-- [x] Add weapon data.
+- [x] Add item data.
 - [x] Add icons.
 - [x] Build web service to serve data and assets.
 - [x] Serve icons in the backend.
@@ -27,6 +27,8 @@ Hopefully it helps someone looking for this until Riot updates their TFT data fr
 
 Using your own deployed backend or the one hosted on Heroku at: [tft.nemil.io](http://tft.nemil.io/api/)
 
+Heroku Base URL: `http://tft.nemil.io/`
+
 | Endpoint       | Description                          | 📝 Accepted Queries       |
 | -------------- | ------------------------------------ | ------------------------- |
 | /              | List of routes and available queries |                           |
@@ -35,4 +37,4 @@ Using your own deployed backend or the one hosted on Heroku at: [tft.nemil.io](h
 | /api/classes   | Get all class data                   |                           |
 | /api/origins   | Get all origin data                  |                           |
 | /api/items     | Get all item data                    |                           |
-| /api/traits    | Get all trait data                   |                           |
+| /api/traits    | Get all trait (origin + trait) data  |                           |
