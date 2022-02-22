@@ -8,6 +8,7 @@ const port = process.env.PORT || 8080;
 app.use(cors());
 
 app.use("/api", apiRouter);
+app.use(express.static("assets"));
 
 app.listen(port, () => {
   console.log(`Now live at http://localhost:${port}/`);
@@ -52,6 +53,7 @@ app.get("/", (req, res) => {
 
 app.use((err, req, res, next) => {
   const { message = "Something went wrong.", statusCode = 500 } = err;
+  console.log(err);
   res.status(statusCode).json({
     code: statusCode,
     message,
