@@ -29,12 +29,14 @@ Using your own deployed backend or the one hosted on Heroku at: [tft.nemil.io](h
 
 Heroku Base URL: `http://tft.nemil.io/`
 
-| Endpoint       | Description                          | 📝 Accepted Queries       |
-| -------------- | ------------------------------------ | ------------------------- |
-| /              | List of routes and available queries |                           |
-| /api/          | List of routes                       |                           |
-| /api/champions | Get all or filtered champion data    | cost, hasClass, hasOrigin |
-| /api/classes   | Get all class data                   |                           |
-| /api/origins   | Get all origin data                  |                           |
-| /api/items     | Get all item data                    |                           |
-| /api/traits    | Get all trait (origin + trait) data  |                           |
+| Endpoint                         | Description                                                  | 📝 Accepted Queries       |
+| -------------------------------- | ------------------------------------------------------------ | ------------------------- |
+| /                                | List of routes and available queries                         |                           |
+| /api/                            | List of routes                                               |                           |
+| /api/champions                   | Get all or filtered champion data                            | cost, hasClass, hasOrigin |
+| /api/classes                     | Get all class data                                           |                           |
+| /api/origins                     | Get all origin data                                          |                           |
+| /api/items                       | Get all item data                                            |                           |
+| /api/traits                      | Get all trait (origin + trait) data                          |                           |
+| /icons/items/{item.icon}         | Get item icon with file name given by the items endpoint     |                           |
+| /icons/champions/{champion.icon} | Get champion icon with file name given by the items endpoint |                           |
