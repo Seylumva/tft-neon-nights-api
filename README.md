@@ -25,7 +25,7 @@ Hopefully it helps someone looking for this until Riot updates their TFT data fr
 
 ## API
 
-Using your own deployed backend or the one hosted on Heroku at: [tft.nemil.io](http://tft.nemil.io/api/)
+Using your own deployed backend or the one hosted on Heroku at: [tft.nemil.io](https://tft.nemil.io/api/)
 
 Heroku Base URL: `http://tft.nemil.io/`
 
